@@ -3,29 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Portfolio of Jacqueline Mattisen, a web developer specializing in frontend development. Explore projects and skills.">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
     <title>Portfolio - Jacqueline</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
-</body>
 <header class="header">
-    <h1 class="logo">JM</h1>
-    <nav class="nav">
-        <button class="nav-toggle" aria-label="Toggle navigation">
-            <span class="hamburger"></span>
-        <ul>
-            <li> <a href="home"> Home </a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="navbar-left">
+        <h1>JM</h1>
+    </div>
+
+    <div>
+        <nav class="navbar-right">
+            <!--<button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span> -->
+            <ul>
+                <li> <a href="home"> Home </a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
 <section class="index">
     <div class="bilder">
-        <img src="profile.jpg" 
+        <img src="/assets/images/foto.png" 
         alt="Profile Picture" 
         class="profile-picture">
     </div>
@@ -36,14 +44,14 @@
         <p>Welcome to my portfolio! I am a passionate web developer with a focus on creating beautiful and functional user interfaces. Explore my projects and get to know more about me.</p>
     </div>
 
-    <div>
-    <buttom class="work-button">
-        <a href="#projects">View My Work</a>
-    </buttom>
-    </div>
-
-    <div class="contact">
-        <a href="#" class="contact-link">Contact Me</a>
+    <div class="buttons">
+        <buttom class="work-button">
+            <a href="#projects">View My Work</a>
+        </buttom>
+    
+        <buttom class="work-button-right">
+            <a href="#" class="contact-link">Contact Me</a>
+        </buttom>
     </div>
 </div>
 </section>
@@ -124,7 +132,7 @@
         <button type="submit">Send Message</button>
     </form>
 </section>
-
+</body>
     <footer class="footer">
     
     <div class="footer-links">
