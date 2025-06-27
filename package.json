@@ -1,0 +1,25 @@
+{
+  "name": "webdevportfolio",
+  "version": "1.0.0",
+  "description": "My personal portfolio website showcasing my web development projects and skills.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacMattisen/portfolio-webdev.git"
+  },
+  "keywords": [
+    "project",
+    "webdev",
+    "portfolio",
+    "web development"
+  ],
+  "author": "Jacqueline Mattisen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacMattisen/portfolio-webdev/issues"
+  },
+  "homepage": "https://github.com/JacMattisen/portfolio-webdev#readme"
+}
