@@ -379,134 +379,174 @@ section {
 
 /* ---------- CONTACT ---------- */
 
-.contact {
+/* Mantém o estilo da section.contact, flex coluna para título e parágrafo */
+section.contact {
+  padding: 4rem 2rem;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  margin-bottom: 60px;
+  max-width: 680px;
+  color: rgb(185, 43, 143);
+  text-align: center;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 500px;
+  margin-top: 2rem;
+}
+
+/* 3º filho para próxima linha */
+.contact-container .contact-box:nth-child(3) {
+  width: 220px;
+  margin-top: 20px;
+}
+
+.contact-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid var(--rosa-escuro);
+  border-radius: 12px;
+  padding: 25px 20px;
+  width: 220px;
+  text-align: center;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-decoration: none;
+  color: var(--texto-cinza);
+}
+
+.contact-box:hover {
+  background-color: var(--roxo-claro);
+  transform: scale(1.05);
+  border-color: var(--titulo);
+  color: var(--titulo);
+}
+
+.icon-image {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 12px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.icon-image:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.contact-box p {
+  margin: 0;
+
+  font-size: 1rem;
+  color: var(--texto-cinza);
   text-align: center;
-  padding: 4rem 1rem;
+}
+
+.contact-box p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: inherit; /* herda a cor do link */
 }
 
 /* ---------- FOOTER ---------- */
 .footer {
-  background-color: #23272a;
-  color: white;
+  background-color: rgb(233, 227, 227);
+  padding: 2rem;
   text-align: center;
-  padding: 3rem 2rem;
-  min-height: 20vh;
+  color: var(--texto-cinza);
 }
 
-
-Técnica Pomodoro: Foco, Produtividade e Pausas Inteligentes ⏱️🍅
-
-Em um mundo cheio de distrações — redes sociais, notificações, mensagens, barulhos — manter o foco se tornou um verdadeiro desafio. 😵‍💫 Para driblar essa dificuldade e aumentar a produtividade, surgiu a Técnica Pomodoro, uma estratégia simples, mas extremamente eficaz, criada por Francesco Cirillo no final dos anos 1980.
-
-
-
-
-
-O que é a Técnica Pomodoro?
-
-
-
-
-
-A ideia é dividir o tempo de trabalho em blocos de 25 minutos de foco total, seguidos por 5 minutos de pausa. Cada ciclo desses é chamado de “pomodoro” (nome inspirado no tradicional timer de cozinha em forma de tomate 🍅). Após quatro ciclos, é feita uma pausa maior, de 15 a 30 minutos.
-
-
-
-
-
-Exemplo de um ciclo completo:
-
-
-
-
-
-Trabalhe intensamente por 25 minutos 🧠
-Faça uma pausa de 5 minutos 🧘
-Repita isso 4 vezes
-Faça uma pausa longa de 15 a 30 minutos ☕
-
-
-
-
-Simples assim — e surpreendentemente poderoso!
-
-
-
-
-
-Por que funciona tão bem?
-
-
-
-
-
-A Técnica Pomodoro é eficaz porque respeita o ritmo natural do cérebro. Ninguém consegue manter a concentração por horas a fio sem perder rendimento. Ao alternar entre foco e descanso, você evita o cansaço mental e reduz a procrastinação.
-
-
-
-Além disso, os 25 minutos criam uma sensação de urgência: você se concentra mais porque sabe que o tempo está “contando”. ⏳ Isso diminui a tentação de checar o celular ou dar aquela espiada nas redes.
-
-
-
-
-
-Benefícios comprovados da Técnica Pomodoro ✅
-
-
-
-
-
-Aumenta a produtividade sem esgotamento
-Melhora a gestão do tempo, ajudando a planejar melhor as tarefas
-Diminui a ansiedade, já que as pausas são programadas
-Evita a fadiga mental, promovendo mais energia ao longo do dia
-Facilita o início das tarefas, pois 25 minutos parecem mais fáceis de encarar do que “um dia inteiro de trabalho” 🧩
-
-
-
-
-
-
-Dicas para aplicar no dia a dia 🎯
-
-
-
-
-
-Use timers simples no celular ou apps como Focus To-Do, Pomodone ou Forest 🌳
-Escolha uma tarefa por vez — evite multitarefa!
-Durante os 25 minutos, desligue notificações e minimize distrações
-Use as pausas para se alongar, tomar água ou respirar fundo 💧
-Adapte a técnica: se 25 minutos parecer pouco ou muito, experimente com 40/10 ou 50/10. O importante é manter a ideia de foco + pausa!
-
-
-
-
-
-
-Quando a técnica não funciona? ⚠️
-
-
-
-
-
-A Técnica Pomodoro pode não ser ideal para tarefas muito criativas ou que exigem longos períodos de imersão (como escrever um livro ou programar algo complexo). Nesses casos, pode ser melhor estender os blocos ou usar outra abordagem, como o método Deep Work.
-
-
-
-
-
-Conclusão 🌟
-
-
-
-
-
-A Técnica Pomodoro é uma ferramenta simples, gratuita e poderosa para quem quer trabalhar com mais foco e menos estresse. Ao organizar o tempo em pequenos blocos, ela transforma o caos em clareza — e o cansaço em energia. Basta um timer, um pouco de disciplina e a vontade de mudar.
-
-
-
-Então que tal experimentar hoje mesmo? 🍅⏱️ Seu cérebro — e sua produtividade — vão agradecer! 🚀
+.footer-thanks {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--titulo);
+  font-weight: bold;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  color: var(--texto-cinza);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.footer-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--rosa-escuro);
+}
+
+.footer-column a,
+.back-to-top,
+.legal-link {
+  color: var(--texto-cinza);
+  text-decoration: none;
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.footer-column a:hover,
+.back-to-top:hover,
+.legal-link:hover {
+  color: var(--titulo);
+}
+
+.back-to-top {
+  background-color: var(--rosa-escuro);
+  color: var(--branco);
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 40px;
+}
+
+.back-to-top:hover {
+  background-color: #f8bbd0;
+  color: #4a148c;
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.footer-copy {
+  margin: 1rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+html {
+  scroll-behavior: smooth;
+}
